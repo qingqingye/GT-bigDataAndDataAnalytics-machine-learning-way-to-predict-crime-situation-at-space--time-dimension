@@ -10,6 +10,8 @@ The project code contains two parts:
 
 ## INSTALLATION
 
+Install the following libraries:
+
 -pandas -numpy -datetime
 
 -scipy -math 
@@ -17,8 +19,6 @@ The project code contains two parts:
 -sklearn -torch
 
 -matplotlib -seaborn
-
-
 
 To view the visualization result, visit
 https://kratosst.github.io. For the data presented in the demo, visit the corresponding github page (https://github.com/KratosST/kratosst.github.io) for presented data.
@@ -28,7 +28,7 @@ There are several files to process the data. These codes are designed for data m
 
 Crime Map Visualization Interaction:
 
-1.The bottom slider defines the time range from Jan 1, 2009 to Nov 1, 2021. Draw the slider to select a single day and view the heatmap.
+1.The bottom slider defines the time range from Jan 1, 2020 to Dec 1, 2021. The data presented in the time range from Jan 1, 2021 to Dec 1, 2021 are prediction results. The first half analyzes on previous crime data and aggregates on the density. Draw the slider to select a single day and view the heatmap.
 
 2.The dropdown bar defines the splitted hour range in a single day. Select one period and view its the heatmap data for a specific day chosen in step 1. 
 
