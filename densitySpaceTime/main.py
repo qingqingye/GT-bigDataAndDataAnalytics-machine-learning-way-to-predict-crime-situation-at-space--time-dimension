@@ -131,8 +131,6 @@ while i < len(sList):	#loop though list of spatial neighbors (there is a list of
                 z.append(zC[0])
                 c.append(density)
             result = [xC, yC, zC[0], density]
-            df = pd.DataFrame(data=result)
-            df.to_csv(file_name, mode='a')
             stkdeFile.write(str(xC) + "," + str(yC) + "," + str(zC[0]) + "," + str(density) +"\n")
             
         j = j + 1
