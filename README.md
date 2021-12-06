@@ -12,13 +12,13 @@ The project code contains two parts:
 
 
 To view the visualization result, visit
-https://kratosst.github.io
+https://kratosst.github.io. For the data presented in the demo, visit the corresponding github page (https://github.com/KratosST/kratosst.github.io) for presented data.
 
 ## EXECUTION
-
-
+There are several files to process the data. These codes are designed for data merging, refining and scaling. 
 
 Crime Map Visualization Interaction:
+
 1.The bottom slider defines the time range from Jan 1, 2009 to Nov 1, 2021. Draw the slider to select a single day and view the heatmap.
 
 2.The dropdown bar defines the splitted hour range in a single day. Select one period and view its the heatmap data for a specific day chosen in step 1. 
